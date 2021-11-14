@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu>
+            <MenuItem x:Name="Person" Header="Клиенты" Click="Employee_OnClick"></MenuItem>
+            <MenuItem x:Name="EmailPerson" Header="Почты клиентов" Click="Email_OnClick"></MenuItem>
+            <MenuItem x:Name="PhonePerson" Header="Телефоны клиентов" Click="Phone_OnClick"></MenuItem>
+            <MenuItem x:Name="VerietyPerson" Header="Виды клиентов" Click="Veriety_OnClick"></MenuItem>
+            <MenuItem x:Name="StatusPerson" Header="Статусы клиентов" Click="Status_OnClick"></MenuItem>
+        </Menu>
+    </Grid>
+</Window>
